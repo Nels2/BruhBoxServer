@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Error {{code}}</title>
+
+    <style>
+      body {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.88)), url("JAH.jpg");
+        background-attachment: fixed;
+      }
+      p, form {
+        font-size: 20px;
+        margin-top: 20px;
+      }
+      img {
+        width: 300px;
+        margin: 10px;
+      }
+      p span {
+        color: blue;
+      }
+      .cp {
+        color: white;
+      }
+      input {
+        text-align: center;
+      }
+    </style>
+	</head>
+	<body>
+		<p class="cp"> The chatroom you are looking for doesn't exist! Error {{code}}!</p>
+		<br />
+		<img src="https://http.cat/{{code}}">
+		<br />
+		<form action="/user">
+			<input type="text" placeholder="username" name="username"> </input>
+			<input type="submit" value="go to your shelter"> </input>
+		</form>
+	</body>
+</html>

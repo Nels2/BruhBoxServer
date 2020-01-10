@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Hello there {{user}}</title>
+    <style>
+      body {
+        max-width: 1525px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.88)), url("JAH.jpg");
+        background-attachment: fixed;
+      }
+      p {
+        color: white
+      }
+      p, button {
+        font-size: 20px;
+        margin-top: 25px;
+      }
+      p span {
+        font-weight: bold;
+        color: red;
+      }
+      .floatl {
+        float: left;
+      }
+      .floatr {
+        float: right;
+      }
+      <link href="style.css" rel="stylesheet" type="text/css" />
+    </style>
+	</head>
+	<body>
+    		<span class="floatl"><p>
+      Welcome to BruhBox Server,
+      <span>{{user}}</span>
+    </p></span>
+    <br>
+    <p> after entering a chatroom, type "/nick whatevername" to change username</p>
+		<span class="floatr"><a href="https://bruhboxchat.nels277.repl.co">
+			<button> Continue to chatroom </button></span>
+    <span class"floatl"><a href="https://BruhBoxServer.nels277.repl.co">
+			<button> < </button></span>
+		</a>
+	</body>
+</html>
