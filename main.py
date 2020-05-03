@@ -21,7 +21,7 @@ def generate_user(username):
 		username = request.args.get('username')
 
 	if not username:
-		return 'enter a username.' 
+		return 'enter a username. bot.' 
 
 	return render_template('personal_user.html', user=username)
 
