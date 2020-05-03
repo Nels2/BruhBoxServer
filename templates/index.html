@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>BruhBox Server BETA</title>
+		<title>ICX Systems &amp Programming - Live Support</title>
     <style>
       form {
         margin: 0 auto;
@@ -11,21 +11,23 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 75%;
       }
       input {
         font-size: 18px;
         margin-top: 20px;
         text-align: center;
+        border-radius: 5px;
       }
       h1 {
         text-align: center;
-        font-family: Verdana;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 13;
         color: white
       }
       h3, p {
         text-align: center;
-        font-family: Verdana;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 4;
         font-style: italic;
         color: gray;
@@ -36,9 +38,28 @@
       h6 {
         color: gray;
       }
+      header {
+        min-width: 99%;
+        height: 130px;
+        background-color: #d3d1d175;
+        position: absolute;
+        top: 0px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        border-radius: 10px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
       .redtext {
-        color: red;
-        
+        color: darkred;
+        font-weight: bold;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      .redtext1 {
+        color: darkred;
+        font-size: 24px;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       }
       .ok{
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.88)), url("JAH.jpg");
@@ -60,7 +81,7 @@
       }
       .p {
         text-align: center;
-        font-family: Verdana;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 4;
         color: gray;
         padding-bottom: 1px;
@@ -70,7 +91,7 @@
         color: white;
       }
       br {
-        font-family: Verdana;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 4;
         color: gray;
         padding-bottom: 1px;
@@ -83,35 +104,93 @@
         border-style: 3px inset black;
         z-index: -1;
       }
+      #foorm {
+        border-radius: 10px;
+        border: 1px solid black;
+        width: 300px;
+        height: 45px;
+        padding: 10px;
+        margin-top: 5px;
+        text-align: center;
+        margin: 0 auto;
+      }
+      #foorm1 {
+        border-radius: 10px;
+        border: 1px solid black;
+        width: 300px;
+        height: 45px;
+        padding: 10px;
+        margin-top: 5px;
+        text-align: center;
+        margin: 0 auto;
+        color: white;
+      }
+      #submitbutton {
+        width: 75px;
+        height: 35px;
+        background-color: gray;
+        text-align: center;
+        padding: 5px;
+      }
+      #submitbutton:hover {
+        background-color: red;
+        transition: 0.3 ease;
+      }
+      ::selection {
+        background-color: #013896;
+        color: #ffd900;
+      }
+
+      a {
+        text-decoration: none;
+      }
+      /* unvisited link */
+      a:link {
+        color: rgb(0, 102, 255);
+        text-decoration: none;
+      }
+
+      /* visited link */
+      a:visited {
+        color: rgb(93, 72, 167);
+      }
+
+      /* mouse over link */
+      a:hover {
+        color: rgb(131, 131, 131);
+        transition: all 0.3s ease;
+      }
+
+      /* selected link */
+      a:active {
+        color: rgb(255, 153, 0);
+      }
+      footer {
+        min-width: 99%;
+        height: 25px;
+        background-color: darkgray;
+      }
     </style>
 	</head>
 	<body class="ok">
-    
-    <h1> <span class="redtext">BruhBox Server BETA V2.0 </span></h1>
-    
-    <h3>Type in a temporary username to access server to contiue.</h3>
-    <div class="div">
-    <p class="p"> KEY: </p><p id="demo" >XX-XX</p>
-    </div>
-		
-    
-    <form action="/user">
-			<input type="text" placeholder="type a username" name="username"></input>
-			<input type="submit" value="enter"></input>
-		</form> <br />
-
-
-    <button type="button" onclick="myFunction()" class="center"> keygen.sh </button>
-    <br />
-
-
-    <p id="icxcrew" style="display:none">copyright@<a href="https://mobile.twitter.com/_nels27" target="_blank">icx</a></p>
-
-
-    <button type="button" onclick="document.getElementById('icxcrew').style.display='block'" > credz </button>
-    
-    <p id="icy" class="br"></p>
-
+    <header>
+      <hgroup>
+        <h1><span class="redtext">ICX Systems and Programming</span></h1>
+        <h2 class="redtext">Live Support Setup</h2>
+      </hgroup>
+    </header>
+    <section id="foorm">
+      <form action="/user">
+        <h2 class="redtext1">To protect against bots and spam, please type a name in. Please click <a href="https://icx.nels277.repl.co/">here</a> to complete a form instead.</h2>
+        <h2 class="redtext1"> Here's a little brochure for more on us.</h2>
+        <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=f1clra897" width="100%" height="100" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
+			  <input type="text" placeholder="type here.." name="username" autofocus required autocomplete="OFF"></input>
+			  <input type="submit" value="enter" id="submitbutton"></input>
+        <a href="/h3lix.ipa"> Download </a>
+		  </form> <br>
+      <!--<button type="button" onclick="myFunction()" class="center"> keygen.sh </button>
+      <br>-->
+    </section>
     <script>
       function myFunction() {
       document.getElementById("demo").innerHTML = " could not read key. using public key. ";
@@ -120,8 +199,5 @@
       var d = new Date();
       document.getElementById("icy").innerHTML = d;
    </script>
-
-
-    <br />
 	</body>
 </html>
